@@ -807,6 +807,29 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   # Dump fingerprints
   script.Print("Target: {}".format(target_info.fingerprint))
+  script.Print("··········································");
+  script.Print("···················1dd····················");
+  script.Print("···················1dd····················");
+  script.Print("···ddddddddddd·2ddddd·ddddd·2dddddddd1d···");
+  script.Print("···d21······························11d···");
+  script.Print("···ddd······························1dd···");
+  script.Print("···d21··dddddddd1dddddds1ddd1ddd1d··1d2···");
+  script.Print("·················dddd··1dd················");
+  script.Print("·············dddddd·····dd········d1d·····");
+  script.Print("·······ss1ddd1···1ds····121·····sddd······");
+  script.Print("·····1d77·········sdd1···1ds··d2dd········");
+  script.Print("··············dddd1·1ds···1·1dd···········");
+  script.Print("·········sd1dd7······2d1···1dd············");
+  script.Print("···ddd1ddd·········ddddd····7121··········");
+  script.Print("····7···········dddd··ddd·····1dds········");
+  script.Print("············sdd1················12ddd·····");
+  script.Print("·······ddd1dd·········ddd·········7dd1dd··");
+  script.Print("·7ddddd··············ddd·············7dd··");
+  script.Print("···············21ddddd2···················");
+  script.Print("··········································");
+  script.Print("··············BOOTLEGGERS ROM·············");
+  script.Print("··················#121217·················");
+  script.Print("··········································");
 
   script.AppendExtra("ifelse(is_mounted(\"/system\"), unmount(\"/system\"));")
   device_specific.FullOTA_InstallBegin()
@@ -814,6 +837,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   # All other partitions as well as the data wipe use 10% of the progress, and
   # the update of the system partition takes the remaining progress.
   system_progress = 0.9 - (len(block_diff_dict) - 1) * 0.1
+
   if OPTIONS.wipe_user_data:
     system_progress -= 0.1
   progress_dict = {partition: 0.1 for partition in block_diff_dict}
