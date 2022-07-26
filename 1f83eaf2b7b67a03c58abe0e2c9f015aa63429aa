@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "72b96700_731431d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-07-26T19:14:29Z",
+      "side": 1,
+      "message": "This also fixes booting for some devices",
+      "revId": "1f83eaf2b7b67a03c58abe0e2c9f015aa63429aa",
+      "serverId": "5a64c7d2-d220-4cff-a215-87a09ee22948"
+    }
+  ]
+}
