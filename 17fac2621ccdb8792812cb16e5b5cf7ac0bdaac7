@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17b374fc_86d07290",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-08-21T23:12:31Z",
+      "side": 1,
+      "message": "this is very much needed for starlte (for example), coz it goes brrr when we use zlib-ng ",
+      "revId": "17fac2621ccdb8792812cb16e5b5cf7ac0bdaac7",
+      "serverId": "5a64c7d2-d220-4cff-a215-87a09ee22948"
+    }
+  ]
+}
