@@ -34,7 +34,7 @@ PRODUCT_PACKAGES += \
     SettingsIntelligence \
     frameworks-base-overlays
 
-ifeq ($(YAAP_BUILD),)
+ifeq ($(BOOTLEGGERS_BUILD),)
 PRODUCT_PACKAGES += \
     LatinIME
 endif
